@@ -1,0 +1,12 @@
+mutationIndividual 0.01
+mutationGene 0.0001
+mutationGlobalRate 0.2
+mutationGlobalLikeness 0.03
+crossoverElite 0.1
+crossoverNewRandom 0.01
+parentsPercentage 0.84
+tournamentSizePercentage 0.2
+elitismPercentage 0.1
+threadNumber 4
+maxDuration 600
+printGenerations 300

@@ -1,0 +1,51 @@
+# Changelog
+
+### Added
+
+- genetic-vrp-user-db
+	-- added mysql user database microservice -- Pop Ioan-Cristian
+	
+- genetic-vrp-auth-service
+	-- added flask app for communicating with the mysql db -- Pop Ioan-Cristian
+	-- added captcha logic -- Preoteasa Mircea-Costin
+	
+- genetic-vrp-frontend
+	-- Implement basic logic for user input via canvas -- Pop Ioan-Cristian
+	-- login/signup logic -- Preoteasa Mircea-Costin
+	-- Dockerfile -- Preoteasa Mircea-Costin
+	
+- genetic-vrp-docker
+	-- added docker compose for managing all microservices -- Tulba-Lecu Theodor-Gabriel
+	-- added frontend to docker-compose -- Preoteasa Mircea-Costin
+	-- added kong -- Tulba-Lecu Theodor-Gabriel
+
+- genetic-vrp
+	-- added basic components -- Cioltan Marian-Alexandru
+	-- added linear vrp classes -- Cioltan Marian-Alexandru
+	-- added linear genetic algorithm -- Cioltan Marian-Alexandru
+	-- prepare fitness calculator for parallel implementation -- Tulba-Lecu Theodor-Gabriel
+	-- paralellize fitness using pthread and openmp -- Cioltan Marian-Alexandru
+	-- implemented result visualizer with python script -- Tulba-Lecu Theodor-Gabriel
+	
+### Fixed
+- genetic-vrp-user-db
+	-- changed max username length to 255 chars -- Tulba-Lecu Theodor-Gabriel
+	
+- genetric-vrp-auth-service
+	-- added max length username in exposed routes -- Tulba-Lecu Theodor-Gabriel
+	-- fixed datetime format -- Tulba-Lecu Theodor-Gabriel
+
+- genetic-vrp-frontend
+	-- split functionalty in multiple components -- Tulba-Lecu Theodor-Gabriel
+	-- added edit function for point list -- Tulba-Lecu Theodor-Gabriel
+	-- added depo starting point -- Tulba-Lecu Theodor-Gabriel
+	-- added captcha check-up -- Preoteasa Mircea-Costin
+	
+- genetic-vrp-docker
+	-- fix paths in microservices -- Preoteasa Mircea-Costin
+	
+- genetic-vrp
+	-- added elitism -- Cioltan Marian-Alexandru
+	-- improved mutations -- Cioltan Marian-Alexandru
+	-- improved algorithm -- Cioltan Marian-Alexandru
+	-- fixed selector and bugs -- Cioltan Marian-Alexandru
